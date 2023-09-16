@@ -29,9 +29,6 @@
             android:name=".ActivityTajMahal"
             android:exported="false" />
         <activity
-            android:name=".ActivityBorobuddur"
-            android:exported="false" />
-        <activity
             android:name=".ActivityChina"
             android:exported="false" />
         <activity

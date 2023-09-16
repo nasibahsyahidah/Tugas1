@@ -7,33 +7,38 @@
     android:gravity="center_vertical"
     android:background="@drawable/bgasia">
 
-
-    <HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
-        tools:context=".ContinentActivity">
-
         <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp">
 
-            <ImageButton
-                android:id="@+id/indonesia"
-                app:srcCompat="@drawable/button_indonesia"
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
-                android:backgroundTint="#00ffffff"/>
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/indonesia"
+                    app:srcCompat="@drawable/button_indonesia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:backgroundTint="#00ffffff"/>
 
 
-            <ImageButton
-                android:id="@+id/india"
-                app:srcCompat="@drawable/button_india"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
-                android:backgroundTint="#00ffffff"/>
+                <ImageButton
+                    android:id="@+id/india"
+                    app:srcCompat="@drawable/button_india"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:backgroundTint="#00ffffff"/>
+
+
+            </LinearLayout>
+
 
             <ImageButton
                 android:id="@+id/china"
@@ -45,6 +50,5 @@
 
 
         </LinearLayout>
-    </HorizontalScrollView>
 
 </LinearLayout>

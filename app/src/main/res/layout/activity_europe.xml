@@ -8,32 +8,28 @@
     android:background="@drawable/bgeurope">
 
 
-    <HorizontalScrollView
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
-        tools:context=".ContinentActivity">
+        android:layout_marginBottom="100dp">
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-
             <ImageButton
-                app:srcCompat="@drawable/button_italy"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
-                android:backgroundTint="#00ffffff"/>
-
-
-            <ImageButton
+                android:id="@+id/indonesia"
                 app:srcCompat="@drawable/button_greece"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY"
                 android:backgroundTint="#00ffffff"/>
 
+
             <ImageButton
+                android:id="@+id/india"
                 app:srcCompat="@drawable/button_france"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -42,6 +38,17 @@
 
 
         </LinearLayout>
-    </HorizontalScrollView>
+
+
+        <ImageButton
+            android:id="@+id/china"
+            app:srcCompat="@drawable/button_italy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:backgroundTint="#00ffffff"/>
+
+
+    </LinearLayout>
 
 </LinearLayout>

@@ -7,6 +7,7 @@
         <entry key="..\:/LandmarkSafari/app/src/main/res/drawable/button_asia.xml" value="0.177" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/drawable/button_australia.xml" value="0.177" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/drawable/button_brazil.xml" value="0.177" />
+        <entry key="..\:/LandmarkSafari/app/src/main/res/drawable/button_chilean.xml" value="0.122" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/drawable/button_china.xml" value="0.177" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/drawable/button_egypt.xml" value="0.1735" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/drawable/button_europe.xml" value="0.177" />
@@ -28,16 +29,16 @@
         <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_australia.xml" value="0.17552083333333332" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_borobuddur.xml" value="0.16666666666666666" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_china.xml" value="0.17552083333333332" />
-        <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_continent.xml" value="0.22" />
+        <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_continent.xml" value="0.19167473378509198" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_europe.xml" value="0.17552083333333332" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_india.xml" value="0.17552083333333332" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_indo2.xml" value="0.17552083333333332" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_indo3.xml" value="0.16666666666666666" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_indonesia.xml" value="0.16666666666666666" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
-        <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_main_north_america.xml" value="0.17552083333333332" />
+        <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_main_north_america.xml" value="0.16666666666666666" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_main_south_america.xml" value="0.16666666666666666" />
-        <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_maps.xml" value="0.22" />
+        <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_maps.xml" value="0.16666666666666666" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_splash.xml" value="0.13333333333333333" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_taj_mahal.xml" value="0.17552083333333332" />
         <entry key="..\:/LandmarkSafari/app/src/main/res/layout/activity_wall.xml" value="0.17552083333333332" />

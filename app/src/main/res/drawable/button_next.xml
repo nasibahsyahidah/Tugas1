@@ -2,7 +2,7 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="false">
         <layer-list>
-            <item android:width="200dp" android:height="200dp">
+            <item android:width="100dp" android:height="100dp">
                 <bitmap android:src="@drawable/next" />
             </item>
         </layer-list>
@@ -10,7 +10,7 @@
     <!-- Pressed state -->
     <item android:state_pressed="true">
         <layer-list>
-            <item android:width="210dp" android:height="210dp">
+            <item android:width="110dp" android:height="110dp">
                 <bitmap android:src="@drawable/next" />
             </item>
         </layer-list>

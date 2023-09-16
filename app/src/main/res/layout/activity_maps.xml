@@ -34,10 +34,10 @@
 
         <ImageButton
             android:id="@+id/btnMain"
-            android:layout_width="175dp"
-            android:layout_height="1750dp"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="300dp"
             android:backgroundTint="#00ffffff"
-            android:scaleType="fitXY"
             android:src="@drawable/button_next">
 
         </ImageButton>

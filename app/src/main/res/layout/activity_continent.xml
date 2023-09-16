@@ -9,66 +9,101 @@
     android:background="@drawable/continent"
     android:orientation="vertical">
 
-    <HorizontalScrollView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp">
+        android:layout_height="match_parent"
+        android:layout_marginBottom="200dp">
+
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp">
 
-            <ImageButton
-                android:id="@+id/asia"
-                app:srcCompat="@drawable/button_asia"
+
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
-                android:backgroundTint="#00ffffff"/>
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/asia"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/button_asia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:backgroundTint="#00ffffff"/>
 
+                <ImageButton
+                    android:id="@+id/europe"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/button_europe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:backgroundTint="#00ffffff"/>
 
-            <ImageButton
-                android:id="@+id/europe"
-                app:srcCompat="@drawable/button_europe"
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
-                android:backgroundTint="#00ffffff"/>
+                android:layout_height="wrap_content">
 
-            <ImageButton
-                android:id="@+id/southamerica"
-                app:srcCompat="@drawable/button_southamerica"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
-                android:backgroundTint="#00ffffff"/>
+                <ImageButton
+                    android:id="@+id/southamerica"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/button_southamerica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:backgroundTint="#00ffffff"/>
 
-            <ImageButton
-                android:id="@+id/northamerica"
-                app:srcCompat="@drawable/button_northamerica"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
-                android:backgroundTint="#00ffffff"/>
+                <ImageButton
+                    android:id="@+id/northamerica"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/button_northamerica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:backgroundTint="#00ffffff"/>
 
-            <ImageButton
-                android:id="@+id/australia"
-                app:srcCompat="@drawable/button_australia"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
-                android:backgroundTint="#00ffffff"/>
 
-            <ImageButton
-                android:id="@+id/africa"
-                app:srcCompat="@drawable/button_africa"
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
-                android:backgroundTint="#00ffffff"/>
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/australia"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/button_australia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:backgroundTint="#00ffffff"/>
+
+                <ImageButton
+                    android:id="@+id/africa"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/button_africa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:backgroundTint="#00ffffff"/>
+            </LinearLayout>
+
+
+
+
+
 
         </LinearLayout>
-    </HorizontalScrollView>
+    </ScrollView>
+
 
 
 

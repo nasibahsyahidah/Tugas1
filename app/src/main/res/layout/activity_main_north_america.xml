@@ -8,18 +8,19 @@
     android:gravity="center_vertical"
     android:background="@drawable/north_america">
 
-    <HorizontalScrollView
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
-
-        tools:context=".ContinentActivity">
+        android:layout_marginBottom="100dp">
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-
             <ImageButton
+                android:id="@+id/indonesia"
                 app:srcCompat="@drawable/button_mexico"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -28,15 +29,15 @@
 
 
             <ImageButton
+                android:id="@+id/india"
                 app:srcCompat="@drawable/button_usa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY"
                 android:backgroundTint="#00ffffff"/>
 
-
         </LinearLayout>
-    </HorizontalScrollView>
 
+    </LinearLayout>
 </LinearLayout>
 

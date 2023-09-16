@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,16 +7,15 @@
     tools:context=".ActivityIndonesia"
     android:background="@drawable/indo2">
 
-    <ImageView
-        android:id="@+id/next"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_marginLeft="250dp"
-        android:layout_marginTop="568dp"
-        android:src="@drawable/next"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.988"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageButton
+        android:id="@+id/btnMain"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="605dp"
+        android:backgroundTint="#00ffffff"
+        android:src="@drawable/button_next">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </ImageButton>
+
+</LinearLayout>
